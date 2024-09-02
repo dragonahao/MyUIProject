@@ -1,11 +1,18 @@
 {
   "name": "my-ui",
-  "private": true,
+  "private": false,
+  "version": "0.0.2",
   "workspaces": [
     "packages/*"
   ],
+  "files": [
+    "lib",
+    "dist",
+    "types"
+  ],
   "publishConfig": {
-    "registry": "http://localhost:4873/"
+    "tag": "next-x",
+    "registry": "http://localhost:4873"
   },
   "dependencies": {},
   "devDependencies": {

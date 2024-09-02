@@ -4,5 +4,15 @@
   "packages": [
     "packages/*"
   ],
-  "npmClient": "yarn"
+  "npmClient": "yarn",
+  "command": {
+    "publish": {
+      "ignoreChanges": [
+        "package-lock.json",
+        "yarn.lock",
+        "node_modules"
+      ],
+      "registry": "http://localhost:4873/"
+    }
+  }
 }
