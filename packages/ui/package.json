@@ -1,7 +1,7 @@
 {
   "name": "my-ui",
   "private": false,
-  "version": "0.0.2",
+  "version": "0.0.1",
   "workspaces": [
     "packages/*"
   ],
@@ -14,7 +14,6 @@
     "tag": "next-x",
     "registry": "http://localhost:4873"
   },
-  "dependencies": {},
   "devDependencies": {
     "lerna": "^8.1.8"
   }
