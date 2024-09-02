@@ -4,6 +4,10 @@
   "workspaces": [
     "packages/*"
   ],
+  "publishConfig": {
+    "access": "public",
+    "registry": "http://localhost:4873/"
+  },
   "dependencies": {},
   "devDependencies": {
     "lerna": "^8.1.8"
